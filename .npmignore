@@ -1,0 +1,7 @@
+src/
+tsconfig.json
+biome.json
+.npmrc
+.gitignore
+*.ts
+!*.d.ts
