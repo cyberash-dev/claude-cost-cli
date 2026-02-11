@@ -21,7 +21,7 @@ const getPresenter = (json: boolean) =>
 
 const program = new Command();
 program
-  .name('claude-usage')
+  .name('claude-cost')
   .description('CLI for Claude API usage and cost reports')
   .version('1.0.0');
 

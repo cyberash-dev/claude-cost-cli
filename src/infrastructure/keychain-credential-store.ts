@@ -4,8 +4,8 @@ import type { CredentialStore } from '../application/ports/credential-store.port
 
 const execFileAsync = promisify(execFile);
 
-const SERVICE = 'claude-usage-cli';
-const ACCOUNT = 'claude-usage-cli';
+const SERVICE = 'claude-cost-cli';
+const ACCOUNT = 'claude-cost-cli';
 
 export function createKeychainCredentialStore(): CredentialStore {
   return {
@@ -55,9 +55,7 @@ export function createKeychainCredentialStore(): CredentialStore {
           message.includes('could not be found') ||
           message.includes('The specified item could not be found')
         ) {
-          throw new Error(
-            'No API key stored. Run: claude-usage config set-key',
-          );
+          throw new Error('No API key stored. Run: claude-cost config set-key');
         }
         throw new Error(
           `Failed to retrieve credential from Keychain: ${message}`,

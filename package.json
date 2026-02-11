@@ -1,11 +1,11 @@
 {
-  "name": "claude-usage-cli",
+  "name": "claude-cost-cli",
   "version": "0.1.0",
   "type": "module",
   "description": "CLI for Claude API usage and cost reports",
   "main": "dist/index.mjs",
   "bin": {
-    "claude-usage": "./dist/index.mjs"
+    "claude-cost": "./dist/index.mjs"
   },
   "files": [
     "dist",
@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cyberash-dev/claude-usage-cli.git"
+    "url": "https://github.com/cyberash-dev/claude-cost-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/cyberash-dev/claude-usage-cli/issues"
+    "url": "https://github.com/cyberash-dev/claude-cost-cli/issues"
   },
-  "homepage": "https://github.com/cyberash-dev/claude-usage-cli#readme",
+  "homepage": "https://github.com/cyberash-dev/claude-cost-cli#readme",
   "engines": {
     "node": ">=18"
   },
