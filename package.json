@@ -1,6 +1,6 @@
 {
   "name": "claude-cost-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "CLI for Claude API usage and cost reports",
   "main": "dist/index.mjs",
