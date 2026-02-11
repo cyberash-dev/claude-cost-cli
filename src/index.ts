@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { Command } from 'commander';
 import { createAnthropicCostRepository } from './infrastructure/anthropic-cost-repository.js';
 import { createAnthropicUsageRepository } from './infrastructure/anthropic-usage-repository.js';
